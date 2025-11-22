@@ -11,6 +11,7 @@ How to run backend:
 H2 console: http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:car_rental
 
+
 How to run frontend:
 1. cd frontend
 2. npm install

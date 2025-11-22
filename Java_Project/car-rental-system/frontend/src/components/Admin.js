@@ -10,6 +10,7 @@ export default function Admin(){
       .then(()=>{ alert('Added'); window.location.reload(); })
       .catch(e=>alert(e));
   };
+  
   return (
     <div>
       <h2>Admin</h2>
