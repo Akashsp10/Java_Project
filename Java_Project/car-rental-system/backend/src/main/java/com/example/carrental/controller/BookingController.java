@@ -13,7 +13,6 @@ public class BookingController {
     public BookingController(BookingService service) {
         this.service = service;
     }
-
     @PostMapping
     public Booking create(@RequestBody Booking booking) {
         return service.createBooking(booking);
